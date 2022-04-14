@@ -14,7 +14,12 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
+    /******************************************************
+    * 게임 매니저의 역할은 다음과 같다
+    * 1. : 게임의 시작과 종료
+    * 2. : 디버깅 UI 텍스트 조절
+    * 3. : 캐릭터의 Life Data를 저장한다.
+    ******************************************************/
     public void GetHit()
     {
         life--;
