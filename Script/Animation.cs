@@ -9,6 +9,8 @@ public class Animation : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, lifeTime);
+        //파괴 애니메이션으로 추측
+        //1.5f == 1.5 second
     }
 
     // Update is called once per frame
